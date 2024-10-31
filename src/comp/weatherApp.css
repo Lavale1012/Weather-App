@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  font-family: "Manrope", sans-serif;
+}
+.weatherApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #212121;
+}
+
+.container {
+  /* width: 450px;
+  height: 600px;
+  /* margin: auto; */
+  /* margin-top: 75px; */
+  /* border-radius: 12px; */
+  /* background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%); */
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(100px);
+  background-color: rgba(65, 65, 65, 0.308);
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  cursor: pointer;
+}
+
+.topBar {
+  display: flex;
+  gap: 14px;
+}
+.topBar input {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  background: #212121;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding-left: 20px;
+  /* color: #626262; */
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
+.searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #212121;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.weatherImage {
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+.weatherTemp {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 3em;
+  letter-spacing: 1.2px;
+  color: white;
+}
+.weatherLocation {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: 1.2px;
+  color: white;
+}
+.dataContainer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+  background-color: #212121;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.data {
+  font-size: 17px;
+  font-weight: 400;
+}
+.text {
+  font-size: 17px;
+  font-weight: 400;
+}
+.icon {
+  margin-top: 5px;
+}
